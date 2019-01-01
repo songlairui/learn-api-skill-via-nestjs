@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "rvdata",
+  "database": "nest-photo",
+  "entities": ["src/**/**.entity{.ts,.js}"],
+  "synchoronize": true
+}
